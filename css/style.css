@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+html,body{
+  font-family:fantasy;
+  font-size: 14px;
+  font-weight: normal;
+  height: 100%;
+  background: url(../img/background.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header{
+  padding: 15px 35px;
+  display: inline-block;
+  width: 100%;
+}
+.logo{
+  float: left;
+  margin-top: 0;
+}
+img{
+  max-width: 10%;
+  display: inline;
+}
+.menu{
+  float: right;
+}
+.menu ul li{
+  display: inline-block;
+  float: left;
+  line-height: 28px;
+  margin-top: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px 20px;
+}
+.menu ul li a:hover{
+  color:yellow ;
+}
+.name{
+  width: 350px;
+  margin-top: 200px;
+  text-align: right;
+  margin-left: 15px;
+}
+.name h5{
+  color: #f6ff00;
+  font-size: 50px;
+  letter-spacing: 6px;
+}
+.name h1{
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 4px;
+}
+.About h5{
+  color: #f6ff00;
+  font-size: 50px;
+  letter-spacing: 6px;
+  float: right;
+  margin-right: 40%
+}
+.About h1{
+  color: #fff;
+  font-size: 40px;
+  line-height: 20px;
+  letter-spacing: 4px;
+  padding-top: 100px;
+  padding-left: 50px;
+  line-height: 50px;
+}
+.contact h5{
+  color: #f6ff00;
+  font-size: 50px;
+  letter-spacing: 6px;
+  float: right;
+  margin-right: 40%
+}
+.contact h1{
+  color: #fff;
+  font-size: 40px;
+  line-height: 20px;
+  letter-spacing: 4px;
+  padding-top: 100px;
+  padding-left: 50px;
+  line-height: 50px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
